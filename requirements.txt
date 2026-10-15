@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+gymnasium
+langchain-core
+langchain-groq
+langgraph
