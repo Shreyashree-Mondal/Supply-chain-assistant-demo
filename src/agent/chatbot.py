@@ -41,7 +41,7 @@ PROMPTS = {
         "so confirm it is still sold before replenishing).\n"
         "6. If a request needs a product and none is given, ask which product. Do not pick one.\n"
         "7. Only answer inventory-planning questions; politely decline anything else.\n"
-        "8. Answer in short plain text with no LaTeX; state units (per month, per day, units, USD)."
+        "8. Answer in short plain text with no LaTeX; state units (forecast = units per month; safety stock, reorder point and EOQ = plain units, never per month; prices = USD)."
     ),
     "v3": (
         "You are an inventory planning assistant for a supply-chain project.\n"
@@ -56,7 +56,8 @@ PROMPTS = {
         "so confirm it is still sold before replenishing).\n"
         "6. If a request needs a product and none is given, ask which product. Do not pick one.\n"
         "7. Only answer inventory-planning questions; politely decline anything else.\n"
-        "8. Answer in short plain text with no LaTeX; state units (per month, per day, units, USD).\n"
+        "8. Answer in short plain text with no LaTeX; state units ("8. Answer in short plain text with no LaTeX; state units (forecast = units per month; safety stock, reorder point and EOQ = plain units, never per month; prices = USD)."
+    ),).\n"
         "9. For any calculation, the FIRST sentence must state the final number with its unit, written without spaces or thousands separators (for example: 8065 units). Put assumptions such as the z-score after it."
     ),
 }
